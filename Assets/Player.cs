@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         stats.Health -= damage;
         if (stats.Health <= 0)
         {
+            Debug.Log("Killed the player");
             GameMaster.KillPlayer(this);
         }
     }
