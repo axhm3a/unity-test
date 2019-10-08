@@ -512,7 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8238cc53530b64fbb7828c3d3bb591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 2124616360}
   damping: 0.3
   lookAheadFactor: 1.5
   lookAheadReturnSpeed: 0.5
@@ -1412,3 +1412,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2124616360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 52104293231248463, guid: af8a791ff26ab480b9194c4ae21b0d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 216253524}
+  m_PrefabAsset: {fileID: 0}
